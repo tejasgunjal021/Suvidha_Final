@@ -22,6 +22,9 @@ To bridge the gap between customers and local workers by creating a reliable, ea
 # Tech Stack:
 
 Frontend: React.js with TailwindCSS
+
 Backend: Node.js & Express.js
+
 Database: MongoDB
+
 Authentication: JWT & bcrypt

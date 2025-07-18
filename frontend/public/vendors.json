@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "Vendor Example 1",
+    "address": "123 Colaba Causeway, Mumbai, Maharashtra 400005 India",
+    "image": "https://via.placeholder.com/300x200"
+  },
+  {
+    "id": 2,
+    "name": "Vendor Example 2",
+    "address": "456 Lokhandwala Complex, Andheri West, Mumbai, Maharashtra 400053 India",
+    "image": "https://via.placeholder.com/300x200"
+  },
+  {
+    "id": 3,
+    "name": "Vendor Example 3",
+    "address": "789 Lamington Road, Grant Road, Mumbai, Maharashtra 400007 India",
+    "image": "https://via.placeholder.com/300x200"
+  }
+  
+]

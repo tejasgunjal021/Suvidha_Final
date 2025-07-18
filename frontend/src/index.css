@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scrollable {
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+/* Custom scrollbar styles for WebKit browsers (Chrome, Safari) */
+.scrollable::-webkit-scrollbar {
+  width: 8px; /* Set the width of the scrollbar */
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.5); /* Set the color of the scrollbar thumb */
+  border-radius: 10px; /* Round the corners of the thumb */
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1); /* Set the color of the track */
+}
+
+/* Custom scrollbar styles for Firefox */
+.scrollable {
+  scrollbar-width: thin; /* Set scrollbar width */
+  scrollbar-color: rgba(255, 255, 255, 0.5) rgba(255, 255, 255, 0.1); /* Set the thumb and track colors */
+}

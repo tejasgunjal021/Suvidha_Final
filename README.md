@@ -1,31 +1,27 @@
 # SUVIDHA
 
-.env Structure
+Suvidha is a MERN-based service marketplace platform designed to connect customers with skilled local workers such as electricians, plumbers, carpenters, house cleaners, tutors, and more. Inspired by UrbanClap, Suvidha specifically focuses on uplifting and promoting local service providers by giving them a digital platform to offer their services, gain visibility, and receive job opportunities.
 
-PORT = 3000
+# Project Objective:
+To bridge the gap between customers and local workers by creating a reliable, easy-to-use platform that supports employment and digital inclusion for small-scale service providers.
 
-MONGO_URI = 
+# Key Features:
 
-UPSTASH_REDIS_URL = 
+🔍 Service Browsing: Customers can explore and book various home, personal, and professional services.
 
-ACCESS_TOKEN_SECRET = 
+📍 Location-Based Matching: Find nearby service providers based on user's location.
 
-REFRESH_TOKEN_SECRET = 
+👨‍🔧 Worker Profiles: Each worker has a detailed profile with skills, experience, ratings, and past work.
 
-CLIENT_URL = http://localhost:5174
+📅 Booking System: Schedule appointments with service providers directly from the platform.
 
-CLOUDINARY_CLOUD_NAME =
+⭐ Ratings & Reviews: Feedback system for quality assurance.
 
-CLOUDINARY_API_KEY = 
+🧑‍💻 Admin Dashboard: Manage users, services, workers, and reports.
 
-CLOUDINARY_API_SECRET = 
+# Tech Stack:
 
-NODE_ENV=development
-
-//For Email Feature
-
-SMTP_USER=
-
-SMTP_PASS=
-
-
+Frontend: React.js with TailwindCSS
+Backend: Node.js & Express.js
+Database: MongoDB
+Authentication: JWT & bcrypt
